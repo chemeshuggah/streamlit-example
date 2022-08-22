@@ -16,6 +16,11 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 add_selectbox = st.sidebar.selectbox(
+    "new?",
+    ("1", "2", "Mobile phone")
+)
+
+add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
