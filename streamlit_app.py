@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-st.sidebar.write(1234)
+st.sidebar.markdown("Headquarters")
     
 add_selectbox = st.sidebar.selectbox(
     "new?",
