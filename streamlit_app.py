@@ -15,6 +15,8 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
+st.sidebar.write(1234)
+    
 add_selectbox = st.sidebar.selectbox(
     "new?",
     ("1", "2", "Mobile phone")
