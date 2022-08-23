@@ -43,20 +43,24 @@ if st.sidebar.button('Help'):
 
 st.header('Test')
 
-with st.container():
+col1, col2 = st.columns(2)
+
+with col1:
+    with st.container():
     st.write("This is inside the container")
 
     # You can call any Streamlit command, including custom components:
     st.bar_chart(np.random.randn(50, 3))
-
-if st.button('Draw group card'):
-    st.write('OK')
-
-if st.button('Pass'):
-    st.write('OK')
-
-if st.button('Close game'):
-    st.write('OK')
-
-with st.container():
+    
+    with st.container():
      st.balloons()
+
+with col2:
+    if st.button('Draw group card'):
+    st.write('OK')
+
+    if st.button('Pass'):
+    st.write('OK')
+
+    if st.button('Close game'):
+    st.write('OK')
