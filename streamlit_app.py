@@ -39,6 +39,14 @@ add_selectbox = st.sidebar.selectbox(
 if st.sidebar.button('Help'):
     st.sidebar.write('OK')
 
+st.header('Test')
+
+with st.container():
+    st.write("This is inside the container")
+
+    # You can call any Streamlit command, including custom components:
+    st.bar_chart(np.random.randn(50, 3))
+
 if st.button('Draw group card'):
     st.write('OK')
 
