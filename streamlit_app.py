@@ -55,25 +55,3 @@ if st.button('Close game'):
 
 with st.container():
      st.balloons()
-
-col1, col2 = st.columns(2)
-
-with col1:
-    with st.container():
-        st.write("This is inside the container")
-
-        # You can call any Streamlit command, including custom components:
-        st.bar_chart(np.random.randn(50, 3))
-
-with col2:
-    if st.button('Draw group card'):
-    st.col2.write('OK')
-
-    if st.button('Pass'):
-    st.col2.write('OK')
-
-    if st.button('Close game'):
-    st.col2.write('OK')
-
-with st.container():
-     st.balloons()
