@@ -49,15 +49,14 @@ with st.container():
     # You can call any Streamlit command, including custom components:
     st.bar_chart(np.random.randn(50, 3))
 
-
 if st.button('Draw group card'):
-st.write('OK')
+    st.write('OK')
 
 if st.button('Pass'):
-st.write('OK')
+    st.write('OK')
 
 if st.button('Close game'):
-st.write('OK')
+    st.write('OK')
 
 with st.container():
      st.balloons()
