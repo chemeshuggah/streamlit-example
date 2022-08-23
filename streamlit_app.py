@@ -21,27 +21,23 @@ add_selectbox = st.sidebar.selectbox(
 add_selectbox = st.sidebar.selectbox(
     "Opponent scoring pile",
     ("Email", "Home phone", "Mobile phone"))
-
-st.sidebar.markdown("Objective deck")
     
 add_selectbox = st.sidebar.selectbox(
     "Objective Deck",
     ("1", "2", "Mobile phone")
 )
 
-st.sidebar.markdown("Group deck")
-
 add_selectbox = st.sidebar.selectbox(
     "Group deck",
     ("Email", "Home phone", "Mobile phone"))
 
-st.sidebar.markdown("Graveyard")
 
 add_selectbox = st.sidebar.selectbox(
     "Graveyard",
-    ("Email", "Home phone", "Mobile phone")
+    ("Email", "Home phone", "Mobile phone"))
 
-)
+add_selectbox = st.button('Help'):
+    st.write('OK')
 
 if st.button('Draw group card'):
     st.write('OK')
