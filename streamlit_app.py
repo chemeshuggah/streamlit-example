@@ -9,7 +9,7 @@ add_selectbox = st.sidebar.selectbox(
 
 add_selectbox = st.sidebar.selectbox(
     "List of opponent agents",
-    ("Email", "Home phone", "Mobile phone")
+    ("Email", "Home phone", "Mobile phone"))
 
 st.sidebar.markdown("Scoring pile")
     
@@ -20,7 +20,7 @@ add_selectbox = st.sidebar.selectbox(
 
 add_selectbox = st.sidebar.selectbox(
     "Opponent scoring pile",
-    ("Email", "Home phone", "Mobile phone")
+    ("Email", "Home phone", "Mobile phone"))
 
 st.sidebar.markdown("Objective deck")
     
@@ -33,9 +33,9 @@ st.sidebar.markdown("Group deck")
 
 add_selectbox = st.sidebar.selectbox(
     "Group deck",
-    ("Email", "Home phone", "Mobile phone")
+    ("Email", "Home phone", "Mobile phone"))
 
-    st.sidebar.markdown("Graveyard")
+st.sidebar.markdown("Graveyard")
 
 add_selectbox = st.sidebar.selectbox(
     "Graveyard",
