@@ -12,8 +12,4 @@ add_selectbox = st.sidebar.selectbox(
     ("Email", "Home phone", "Mobile phone")
 )
 with st.container():
-    st.write("opponents group cards for a turn")
-
-    st.spinner(text="In progress...")
-    time.sleep(60)
-st.success('Done!')
+     st.balloons()
