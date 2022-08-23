@@ -65,13 +65,13 @@ with col1:
 
 with col2:
     if st.button('Draw group card'):
-    st.write('OK')
+    st.col2.write('OK')
 
     if st.button('Pass'):
-    st.write('OK')
+    st.col2.write('OK')
 
     if st.button('Close game'):
-    st.write('OK')
+    st.col2.write('OK')
 
 with st.container():
      st.balloons()
