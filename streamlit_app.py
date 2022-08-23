@@ -3,13 +3,54 @@ import streamlit as st
 st.sidebar.markdown("Headquarters")
     
 add_selectbox = st.sidebar.selectbox(
-    "new?",
+    "List of your agents",
     ("1", "2", "Mobile phone")
 )
 
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
+    "List of opponent agents",
     ("Email", "Home phone", "Mobile phone")
+
+st.sidebar.markdown("Scoring pile")
+    
+add_selectbox = st.sidebar.selectbox(
+    "Your scoring pile",
+    ("1", "2", "Mobile phone")
 )
+
+add_selectbox = st.sidebar.selectbox(
+    "Opponent scoring pile",
+    ("Email", "Home phone", "Mobile phone")
+
+st.sidebar.markdown("Objective deck")
+    
+add_selectbox = st.sidebar.selectbox(
+    "Objective Deck",
+    ("1", "2", "Mobile phone")
+)
+
+st.sidebar.markdown("Group deck")
+
+add_selectbox = st.sidebar.selectbox(
+    "Group deck",
+    ("Email", "Home phone", "Mobile phone")
+
+    st.sidebar.markdown("Graveyard")
+
+add_selectbox = st.sidebar.selectbox(
+    "Graveyard",
+    ("Email", "Home phone", "Mobile phone")
+
+)
+
+if st.button('Draw group card'):
+    st.write('OK')
+
+if st.button('Pass'):
+    st.write('OK')
+
+if st.button('Close game'):
+    st.write('OK')
+
 with st.container():
      st.balloons()
