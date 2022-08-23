@@ -58,10 +58,10 @@ col1, col2 = st.columns(2)
 
 with col1:
     with st.container():
-    st.container.write("This is inside the container")
+        st.write("This is inside the container")
 
-    # You can call any Streamlit command, including custom components:
-    st.bar_chart(np.random.randn(50, 3))
+        # You can call any Streamlit command, including custom components:
+        st.bar_chart(np.random.randn(50, 3))
 
 with col2:
     if st.button('Draw group card'):
