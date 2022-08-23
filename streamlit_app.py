@@ -37,7 +37,7 @@ add_selectbox = st.sidebar.selectbox(
     ("Email", "Home phone", "Mobile phone"))
 
 if st.sidebar.button('Help'):
-    st.write('OK')
+    st.sidebar.write('OK')
 
 if st.button('Draw group card'):
     st.write('OK')
